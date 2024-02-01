@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		882DB36E2B6BBD8900A2759E /* APIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DB36D2B6BBD8900A2759E /* APIProjectApp.swift */; };
-		882DB3702B6BBD8900A2759E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DB36F2B6BBD8900A2759E /* ContentView.swift */; };
 		882DB3722B6BBD8A00A2759E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DB3712B6BBD8A00A2759E /* Assets.xcassets */; };
 		882DB3752B6BBD8A00A2759E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DB3742B6BBD8A00A2759E /* Preview Assets.xcassets */; };
 		882DB39F2B6BC07B00A2759E /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DB39E2B6BC07B00A2759E /* Data+.swift */; };
@@ -34,7 +33,6 @@
 /* Begin PBXFileReference section */
 		882DB36A2B6BBD8900A2759E /* APIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882DB36D2B6BBD8900A2759E /* APIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProjectApp.swift; sourceTree = "<group>"; };
-		882DB36F2B6BBD8900A2759E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		882DB3712B6BBD8A00A2759E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882DB3742B6BBD8A00A2759E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		882DB39E2B6BC07B00A2759E /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				882DB37E2B6BBEE300A2759E /* Repository */,
 				882DB37F2B6BBEEC00A2759E /* Model */,
 				882DB3802B6BBEF300A2759E /* Presentation */,
-				882DB36F2B6BBD8900A2759E /* ContentView.swift */,
 				882DB3712B6BBD8A00A2759E /* Assets.xcassets */,
 				882DB3732B6BBD8A00A2759E /* Preview Content */,
 			);
@@ -335,7 +332,6 @@
 				882DB3A72B6BC13F00A2759E /* EndPoint.swift in Sources */,
 				882DB3BE2B6BCC1F00A2759E /* Constants.swift in Sources */,
 				882DB3C32B6BD89B00A2759E /* BaseResponse.swift in Sources */,
-				882DB3702B6BBD8900A2759E /* ContentView.swift in Sources */,
 				882DB3A32B6BC10C00A2759E /* PetEndPoint.swift in Sources */,
 				882DB3C82B6BDA4300A2759E /* postPetInfoDTO.swift in Sources */,
 				882DB3B32B6BC1DF00A2759E /* PetRepositoryTest.swift in Sources */,

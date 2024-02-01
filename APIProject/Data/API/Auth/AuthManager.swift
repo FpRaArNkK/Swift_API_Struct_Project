@@ -88,10 +88,9 @@ class AuthManager: RequestInterceptor {
                 
                 // 재시도 횟수 내일 때만 재시도
                 request.retryCount < self.retryLimit ?
-                completion(.retry) : completion(.doNotRetry)
+                completion(.retry) : completion(.doNotRetryWithError(APIError.customError("재시도 횟수 초과")))
             case .failure(let error):
-                // 토큰 갱신 실패 시 에러 처리
-                completion(.doNotRetryWithError(APIError.customError("재시도 횟수 초과")))
+                completion(.doNotRetryWithError(error))
             }
         }
     }
