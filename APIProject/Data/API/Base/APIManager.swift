@@ -65,7 +65,7 @@ extension APIManager {
           "\(endPoint.baseURL)\(endPoint.path)",
           method: endPoint.method,
           headers: endPoint.headers
-//          interceptor: AuthManager() // 인터셉터 임시비활성화
+          interceptor: AuthManager()
         )
         
       case let .requestJSONEncodable(parameters):
